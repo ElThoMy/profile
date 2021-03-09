@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:300,400,700|RocknRoll:400');
+
+body {
+  background-color:rgba(240,240,240,0.1);
+  font-family: 'Open Sans', sans-serif;
+  color:#777;
+}
+
+h1, h2, h3 {
+  color: #f88f01;
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+a {
+  color:#6a492b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p {
+  margin: 40px;
+}
+
+.profile-picture {
+  width: 100px;
+  border-radius: 50px;
+}
+
+.card-grey {
+  width: 700px;
+  margin:16px auto;
+  padding: 16px 16px 40px 16px;
+  background-color: rgba(247,247,247,0.1);
+  box-shadow: 4px 0 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-brown {
+  color: #fff;
+  padding: 16px;
+  background-color: #58391c;
+  border-radius: 4px;
+  box-shadow: 4px 0 30px rgba(0,0,0,0.1);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.social-icon {
+  font-size: 48px;
+  color:rgba(106,73,43, 0.4);
+}
+
+.social-icon:hover {
+  color:#58391c;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-grey {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-grey {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-grey {
+    width: 300px;
+  }
+}
