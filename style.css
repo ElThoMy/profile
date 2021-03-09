@@ -49,6 +49,10 @@ p {
   box-shadow: 4px 0 30px rgba(0,0,0,0.1);
 }
 
+.btn-brown:hover {
+  background-color: #58391c;
+}
+
 .list-inline {
   list-style: none;
   padding-left: 0;
