@@ -42,9 +42,13 @@ p {
 .btn-brown {
   color: #fff;
   padding: 16px;
-  background-color: #58391c;
+  background-color: #6a492b;
   border-radius: 4px;
   box-shadow: 4px 0 30px rgba(0,0,0,0.1);
+}
+
+.btn-brown:hover {
+  background-color: #58391c;
 }
 
 .list-inline {
