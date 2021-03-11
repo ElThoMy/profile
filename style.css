@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=RocknRoll+One&display=swap');
 
 body {
+  margin: 0;
   background-color:rgba(240,240,240,0.1);
   font-family: 'Open Sans', sans-serif;
   color:#777;
@@ -23,14 +24,37 @@ p {
   margin: 40px;
 }
 
+nav {
+  background: #f88f01;
+  color: white;
+  font-family: 'RocknRoll One', sans-serif;
+  height: 70px;
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  display: none;
+  }
+
+.nav{
+  margin-left: 5%;
+  margin-top: 0;
+}
+
+.nav a {
+  color: white;
+}
+
+.nav a:hover {
+  color: #6a492b;
+}
 .profile-picture {
-  width: 100px;
-  border-radius: 50px;
+  border-radius: 50%;
 }
 
 .card-grey {
   width: 700px;
-  margin:16px auto;
+  margin: 50px auto;
   padding: 16px 16px 40px 16px;
   background-color: rgba(247,247,247,0.1);
   box-shadow: 4px 0 30px rgba(0,0,0,0.1);
@@ -39,6 +63,25 @@ p {
 
 .text-center {
   text-align: center;
+}
+
+.banner {
+  padding: 25px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text {
+  width: 700px;
+}
+
+.more-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .btn-brown {
@@ -53,6 +96,21 @@ p {
   background-color: #58391c;
 }
 
+.luna-link {
+  color: #58391c;
+  text-decoration: none;
+  font-style: bold;
+}
+
+.luna-link:hover {
+  color: #8c643f;
+}
+
+.more-icon {
+  font-size: 75px;
+  color: #58391c;
+}
+
 .list-inline {
   list-style: none;
   padding-left: 0;
@@ -64,12 +122,31 @@ p {
 }
 
 .social-icon {
-  font-size: 48px;
+  font-size: 32px;
   color:rgba(106,73,43, 0.4);
+  display: inline-block;
+  width: 30%
 }
 
 .social-icon:hover {
   color:#58391c;
+}
+
+.image-round {
+  border-radius: 50%;
+}
+
+footer {
+  background: #eee;
+  color: #444;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 25px 0;
+}
+
+.social-container h2 {
+  color: #58391c;
 }
 
 @media (max-width: 960px) {
